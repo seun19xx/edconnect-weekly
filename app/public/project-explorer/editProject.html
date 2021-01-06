@@ -12,6 +12,7 @@
     <nav>
         <a href="index.html">Home</a>
         <a href="search.html">Projects</a>
+        <a href="createProject.html">Submit</a>
         <a href="login.html">Login</a>
         <a href="register.html">Register</a>
     </nav>
@@ -19,27 +20,27 @@
      
             <h3>Project 1</h3>
             <ul>    
-                <li id="createdBy">Created by : Jane Doe</li>
-                <li id="createDate"> Date Created: 00/00/0000 </li>
-                <li id="lastUpdateDate"> Last Updated: 01/01/0001 </li>
+                <li id="createdBy">Created by : Ade Ade</li>
+                <li id="createDate"> Date Created: 03/03/2020 </li>
+                <li id="lastUpdateDate"> Last Updated: 04/04/2020 </li>
                 
             </ul>
             <br>
         <h2>Edit Project</h2>
-        <form name="editProject">
-            <label>Project Name:</label><br>
-            <input type="text"><br><br>
-            <label>Project Abstract:</label><br>
-            <textarea></textarea><br><br>
-            <label>Authors:</label><br>
-            <input type="text"><br><br>
-            <label>Tag(s):</label><br>
-            <input type="text"><br><br>
-            <label>Add Project File</label><br>
-            <input type="file"><br><br>
-            <input type="submit">
+        <label>Project Name:</label><br>
+        <input type="text" name="name" value="Project 4"><br><br>
+        <label>Project Abstract:</label><br>
+        <textarea name="abstract">Lorem ipsum dolor sit amet,</textarea><br><br>
+        <label>Authors:</label><br>
+        <input type="text" name="authors" value="Ade Ade, Brian James"><br><br>
+        <label>Tag(s):</label><br>
+        <input type="text" name="tags" value="#yaml, #ejs"><br><br>
+        <label>Add Project File</label><br>
+        <input type="file" name="projectFile"> <br> <br>
 
-        </form>
+        <input type="submit">
+
+    </form>
     </main>
     <footer></footer>
 </body>
